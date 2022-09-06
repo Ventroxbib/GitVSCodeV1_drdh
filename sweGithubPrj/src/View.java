@@ -1,3 +1,7 @@
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
 public class View extends JFrame {
 
     private JButton helloWorld;
