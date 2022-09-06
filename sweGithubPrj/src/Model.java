@@ -1,7 +1,11 @@
 public class Model {
 
-    public Object getText() {
-        return null;
+    public Model() {
+        
+    }
+
+    public String changeAusgabe() {
+        return "Hallo Welt";
     }
     
 }
