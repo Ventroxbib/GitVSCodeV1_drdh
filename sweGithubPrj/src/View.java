@@ -16,7 +16,7 @@ public class View extends JFrame implements Presenter.View{
         label = new JLabel(" ");
         label.setHorizontalAlignment(JLabel.CENTER);
         JButton button = new JButton("klick");
-      //  button.addActionListener((ActionListener) new Presenter(this));
+      //button.addActionListener((ActionListener) new Presenter(this));
         JFrame frame = new JFrame("MVC");
         frame.add(label, BorderLayout.NORTH);
         frame.add(button, BorderLayout.CENTER);
